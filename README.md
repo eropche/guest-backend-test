@@ -2,8 +2,14 @@
 
 
 Установить зависимости
+```
 pip install -r requirements.txt
-
+```
+Миграции
+```
+python3 manage.py migrate
+```
 Для запуска дев сервера
+```
 python3 manage.py runserver
-
+```
